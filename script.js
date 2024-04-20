@@ -1,5 +1,10 @@
 let digits = document.getElementById('Digits');
 
+// انتظر 3 ثواني ثم قم بإخفاء عنصر الـ loading
+setTimeout(function() {
+    document.querySelector('.bord').style.opacity = '0';
+  }, 4000);
+  
 function Oclock(){
     let date = new Date();
     let currentTime = date.toLocaleTimeString();
