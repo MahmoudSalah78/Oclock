@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Digital';
+    src: url(assest/DigitalDream/DIGITAL.ttf);
+}
+body{
+    background-color: black;
+
+}
+#Digits{
+    color: white;
+    font-family: 'Digital';
+    font-size: 30px;
+    position: absolute;
+}
+img{
+    width: 500px;
+}
+.Clock{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
